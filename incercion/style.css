@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a2c0e5, #c1a7e2, #e5a2a9);
+    color: #333;
+}
+
+.container {
+    margin-top: 30%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 100px 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #6a5acd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a4bb2;
+}
+
+#unsorted-container, #array-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.array-element {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.unsorted-element {
+    background-color: #ff6b6b;
+}
+
+#pasos {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+#explicacion-container {
+    margin-top: 20px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#explicacion-container h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+#explicaciones-lista {
+    list-style-type: decimal;
+    color: #555;
+    line-height: 1.6;
+    padding-left: 20px;
+}

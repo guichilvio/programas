@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenamiento por Inserción Visual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ordenamiento por Inserción</h1>
+        
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Ingresa números separados por comas (e.g., 2,5,32,7)">
+            <button onclick="iniciarOrdenamiento()">Ordenar</button>
+            <button onclick="crearNuevo()">Crear Otro</button>
+        </div>
+        
+        <div id="unsorted-container"></div>
+        <div id="array-container"></div>
+        <p id="pasos">Número de pasos: 0</p>
+        <div id="explicacion-container">
+            <h3>Explicación de cada paso:</h3>
+            <ul id="explicaciones-lista"></ul>
+        </div>
+    </div>
+
+    <script src="insercion.js"></script>
+</body>
+</html>
